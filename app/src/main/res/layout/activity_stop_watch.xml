@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/ivSplash"
+        android:id="@+id/bgcircle"
         android:layout_width="276dp"
         android:layout_height="247dp"
         android:layout_marginStart="8dp"
@@ -33,6 +33,20 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:textColor="#FFF"
+        android:textSize="62sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bgcircle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/btnstart"
         android:layout_width="280dp"
@@ -45,6 +59,23 @@
         android:textColor="#FFF"
         android:textSize="20sp"
         android:background="@drawable/bgbtngreen"
+        app:layout_constraintBottom_toBottomOf="@id/btnstop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Finish Workout"
+        android:textAllCaps="false"
+        android:textColor="#AF3555"
+        android:textSize="20sp"
+        android:background="@drawable/bgbtnred"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
