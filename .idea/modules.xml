@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fit_Watch.iml" filepath="$PROJECT_DIR$/.idea/modules/Fit_Watch.iml" group="Fit_Watch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Fit Watch/app" />
+    </modules>
+  </component>
+</project>
